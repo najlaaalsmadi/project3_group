@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Ali Ahmed",
+    "jobTitle": "Math Teacher",
+    "salary": 7000,
+    "image": "https://cdn3.iconfinder.com/data/icons/dashboard-ui-vol-3-flat/48/Dashboard_-_Vol._3-02-512.png"
+  },
+  {
+    "name": "Mohammed Said",
+    "jobTitle": "Physics Teacher",
+    "salary": 8500,
+    "image": "https://cdn3.iconfinder.com/data/icons/dashboard-ui-vol-3-flat/48/Dashboard_-_Vol._3-02-512.png"
+  },
+  {
+    "name": "Omar Khaled",
+    "jobTitle": "Chemistry Teacher",
+    "salary": 6500,
+    "image": "https://cdn3.iconfinder.com/data/icons/dashboard-ui-vol-3-flat/48/Dashboard_-_Vol._3-02-512.png"
+  },
+  {
+    "name": "Jana Ahmad",
+    "jobTitle": "Biology Teacher",
+    "salary": 6000,
+    "image": "https://cdn-icons-png.freepik.com/512/4975/4975693.png"
+  },
+  {
+    "name": "Khalid Mohammed",
+    "jobTitle": "English Teacher",
+    "salary": 7000,
+    "image": "https://cdn3.iconfinder.com/data/icons/dashboard-ui-vol-3-flat/48/Dashboard_-_Vol._3-02-512.png"
+  },
+  {
+    "name": "Jamal Ibrahim",
+    "jobTitle": "History Teacher",
+    "salary": 4200,
+    "image": "https://cdn3.iconfinder.com/data/icons/dashboard-ui-vol-3-flat/48/Dashboard_-_Vol._3-02-512.png"
+  },
+  {
+    "name": "Nour Adel",
+    "jobTitle": "Geography Teacher",
+    "salary": 5800,
+    "image": "https://cdn-icons-png.freepik.com/512/4975/4975693.png"
+  },
+  {
+    "name": "Tariq Saeed",
+    "jobTitle": "Computer Science Teacher",
+    "salary": 7000,
+    "image": "https://cdn3.iconfinder.com/data/icons/dashboard-ui-vol-3-flat/48/Dashboard_-_Vol._3-02-512.png"
+  },
+  {
+    "name": "Maha Youssef",
+    "jobTitle": "Economics Teacher",
+    "salary": 6000,
+    "image": "https://cdn-icons-png.freepik.com/512/4975/4975693.png"
+  },
+  {
+    "name": "Jaber Ali",
+    "jobTitle": "Art Teacher",
+    "salary": 4500,
+    "image": "https://cdn3.iconfinder.com/data/icons/dashboard-ui-vol-3-flat/48/Dashboard_-_Vol._3-02-512.png"
+  }
+]

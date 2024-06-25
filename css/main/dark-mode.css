@@ -1,0 +1,38 @@
+/* General Dark Mode Styles */
+.dark-mode {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+/* Dark Mode Specific Styles */
+.dark-mode .Mode {
+    color: #fff; /* Color of the mode toggle icon */
+}
+
+.dark-mode .navbar li a {
+    color: #fff; /* Navbar links color in dark mode */
+}
+
+.dark-mode .navbar .Active-item {
+    color: #05dd71; /* Active navbar item color in dark mode */
+}
+
+.dark-mode .navbar-brand .Text-r {
+    color: #05dd71; /* Color of the 'R' in the navbar brand */
+}
+
+.dark-mode .carousel-control-prev-icon,
+.dark-mode .carousel-control-next-icon {
+    color: #fff; /* Carousel control icon color in dark mode */
+    background-color: #222; /* Background color for carousel controls */
+}
+
+.dark-mode .card {
+    background-color: #222; /* Background color for cards in dark mode */
+    color: #fff; /* Text color for cards in dark mode */
+}
+
+.dark-mode footer {
+    background-color: #222; /* Background color for footer in dark mode */
+    color: #fff; /* Text color for footer in dark mode */
+}

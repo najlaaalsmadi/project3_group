@@ -1,0 +1,11 @@
+  :root {
+    --base-color: #d1e0f1;
+    --primary-color: #0d6efd; 
+    --font: black; 
+    --card: #fff;
+     }
+ 
+
+/* .test{
+  background-color: var(--primary-color);
+} */

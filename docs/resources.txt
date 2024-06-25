@@ -1,0 +1,79 @@
+
+colors : 
+#05445E
+#189AB4
+#75E6DA
+#D4F1F4
+#ffffff
+
+
+
+https://liveweave.com/
+
+https://uiverse.io/forms?page=1
+
+
+
+Boot strap elements  :
+
+containers : 
+
+https://getbootstrap.com/docs/5.0/layout/containers/
+
+text : 
+
+https://getbootstrap.com/docs/5.0/content/typography/
+
+forms : 
+
+https://getbootstrap.com/docs/5.0/forms/overview/
+
+buttons : 
+
+https://getbootstrap.com/docs/5.0/components/buttons/
+
+cards : 
+
+https://getbootstrap.com/docs/5.0/components/card/
+
+nav bar : 
+
+https://getbootstrap.com/docs/5.0/components/navbar/
+
+
+visibility : 
+
+https://getbootstrap.com/docs/5.0/helpers/visually-hidden/
+
+
+tables : 
+
+https://getbootstrap.com/docs/5.0/content/tables/
+
+
+we gonna use SaaS like this : 
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+
+// Source mixin
+@mixin make-container($padding-x: $container-padding-x) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Usage
+.custom-container {
+  @include make-container();
+}
+
+

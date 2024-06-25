@@ -1,0 +1,41 @@
+ 
+
+.logo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 0
+}
+
+.text {
+    transition: opacity 0.5s, transform 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 20px;
+}
+
+.full {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.logo:hover .full {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.logo:hover .text:first-child {
+    opacity: 0;
+    transform: translateY(-20px);
+}

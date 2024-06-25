@@ -1,0 +1,272 @@
+.hero-section {
+  background-color: var(--card);
+  padding: 60px 0;
+  color: black;
+}
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+.hero-section .content {
+  max-width: 600px;
+}
+.hero-section .btn {
+  margin-right: 15px;
+}
+.hero-section .features {
+  list-style: none;
+  padding-left: 0;
+}
+.hero-section .features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.hero-section .features li::before {
+  content: "\2713";
+  color: #28a745;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.hero-section .map {
+  position: relative;
+  margin-top: 30px;
+}
+.hero-section .map img {
+  max-width: 100%;
+}
+.hero-section .map .person {
+  position: absolute;
+}
+.hero-section .map .person img {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+/* h1, h2, h3, h4, h5, h6, p, a {
+  color: black;
+} */
+
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar-nav .nav-link {
+  margin-right: 15px;
+}
+.navbar-nav .btn {
+  margin-left: 15px;
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: var(--primary-color);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 132, 131);
+  border-image: initial;
+}
+.btn-primary:hover {
+  color: rgb(0, 132, 131);
+  background-color: rgb(220, 224, 224);
+  border-color: rgb(0, 132, 131);
+}
+ 
+ 
+.about-section { 
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.about-content {
+  text-align: center;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.row-disply {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.services { 
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+ /* slider  */
+
+ .slider-container { 
+  height: 450px;
+ }
+ .carousel {
+	margin: 25px 0 25px;
+    background: #fff;
+	position: relative;
+	padding: 8px;
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+  height: 400px;
+}
+.carousel:before, .carousel:after {
+	z-index: -1; 
+	position: absolute; 
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 50%; 
+	top: 80%;
+	max-width: 400px;
+	background: rgba(0, 0, 0, 0.7); 
+	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	transform: rotate(-3deg);
+}
+.carousel:after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+.carousel .carousel-item {	
+    text-align: center;
+	min-height: 400px;
+}
+.carousel .carousel-item img {
+	max-width: 90%;
+  height: 350px;
+    margin: 0 auto; /* Align slide image horizontally center in Bootstrap v3 */
+  
+}
+.carousel-control-prev, .carousel-control-next {
+	width: 27px;
+	height: 54px;
+	overflow: hidden;
+	opacity: 1;
+	margin: auto 0;
+	background: none;
+	text-shadow: none;
+}
+.carousel-control-prev span, .carousel-control-next span {
+	width: 54px;
+    height: 54px;
+	display: inline-block;
+    background: #4a4a4a;    
+    border-radius: 50%;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+.carousel-control-prev span {
+	margin-right: -27px;
+}
+.carousel-control-next span {
+	margin-left: -27px;
+}
+.carousel-control-prev:hover span, .carousel-control-next:hover span {
+	background: #3b3b3b;
+}
+.carousel-control-prev i, .carousel-control-next i {
+    font-size: 24px;
+    margin-top: 13px;
+}
+.carousel-control-prev {
+	margin-left: -28px;
+}
+.carousel-control-next {
+	margin-right: -28px;
+}
+.carousel-control-prev i {
+	margin-left: -24px;
+}
+.carousel-control-next i {
+	margin-right: -24px;
+}
+.carousel-indicators {
+	bottom: -42px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 21px;
+	height: 5px;
+	border-radius: 50%;
+	margin: 4px 4px;
+}
+.carousel-indicators li {
+	border: 1px solid #475c6f;
+}
+.carousel-indicators li.active {
+	background: var(--primary-color);
+	border-color: var(--primary-color);
+} 
+ 
+
+
+
+/* Define keyframes for the fade-in and slide-in animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply animations to the elements */
+.hero-section .content {
+  opacity: 0;
+  animation: slideInLeft 1s forwards;
+}
+
+.hero-section img {
+  opacity: 0;
+  animation: slideInRight 1s forwards;
+}
+
+/* Initial state for the elements */
+.hero-section .content, .hero-section img {
+  opacity: 0;
+  transform: translateX(0);
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@keyframes floatAnimation {
+  0% {
+      transform: translateY(0); /* Start position */
+  }
+  50% {
+      transform: translateY(-10px); /* Float up */
+  }
+  100% {
+      transform: translateY(0); /* Back to start position */
+  }
+}
+
+/* Apply the animation to the image */
+.floating-animation {
+  animation: floatAnimation 3s ease-in-out infinite; /* Adjust duration and easing as needed */
+}

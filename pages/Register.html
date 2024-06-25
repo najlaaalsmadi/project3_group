@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/main/nav.css">
+
+   <style> 
+
+    .gradient-custom-3 {
+        
+        body { font-family: 'Open Sans', sans-serif; 
+        
+        background: -webkit-linear-gradient(to right, blue);
+        
+        background: linear-gradient(to right,blue)
+        }
+        .gradient-custom-4 {
+        background: #1f1fff;
+        }
+    }
+    h2 {
+        font-family: 'Open Sans', sans-serif; 
+    }
+    .error { 
+        color: red;
+        font-weight: 400;
+    }
+    </style>
+
+
+</head>
+<body>
+
+
+    <script src="../js/nav.js"></script>
+
+ 
+
+<!-- Section: Design Block -->
+<section style="background-color:#d1e0f1">
+    <div class="container py-1" >
+        <div class="row d-flex justify-content-center align-items-center">
+            <!-- Content column div -->
+            <div class="col-lg-6 mb-4 content-column">
+                <h1 class="my-5 display-3 fw-bold ls-tight">
+                    Simplify your HR processes <br/>
+                    <span class="text-primary">Register to unlock powerful features.</span>
+                </h1>
+                <p style="color: hsl(217, 10%, 50.8%)">
+                    Experience streamlined HR processes with our user-friendly platform. Manage your staff effortlessly, automate tasks like leave requests and payroll, and gain valuable insights to improve your school's operations.  Sign up now and discover a smarter way to handle HR.
+                </p>
+            </div>
+
+            <!-- Cardform here div -->
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+                <div class="card " style="border-radius: 15px; margin-top: 60px; margin-bottom: 60px;">
+               
+                <!-- card-body div -->   
+                <div class="card-body p-4 h-80">
+                    
+                    <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+    
+    
+                    <form> <!-- starting of the form -->
+    
+                    <!-- each input field in a separate container -->
+    
+                    <!--  row for F-name and L-name column containers (name input) -->
+                    <div class="row">
+    
+                        <!-- F-name column container-->
+                        <div class="col-md-6 mb-4">
+                        <div data-mdb-input-init class="form-outline">
+                            <label class="form-label" for="first-name">First name</label>
+                            <input type="text" id="first-name" class="form-control" />
+                            <span id="firstNameError" class="error"></span>
+                        </div>
+                        </div>
+    
+                        <!-- L-name column container-->
+                        <div class="col-md-6 mb-4">
+                        <div data-mdb-input-init class="form-outline">
+                            <label class="form-label" for="last-name">Last name</label>
+                            <input type="text" id="last-name" class="form-control" />
+                            <span id="lastNameError" class="error"></span>
+                        </div>
+                        </div>
+                    </div> <!-- end of the row -->
+    
+                    <!-- input field div -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="user-name">User Name</label>
+                        <input type="email" id="user-name" class="form-control" />
+                        <span id="username-error" class="error"></span>
+                    </div>
+    
+                    <!-- input field div -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="email">Email</label>
+                        <input type="email" id="email" class="form-control" />
+                        <span id="emailError" class="error"></span>
+                    </div>
+    
+                    <!-- input field div -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="password">Password</label>
+                        <input type="password" id="password" class="form-control" />
+                        <span id="passError" class="error"></span>
+                    </div>
+    
+                    <!-- input field div -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="password-repeat">Repeat your password</label>
+                        <input type="password" id="pssword-repeat" class="form-control" />
+                        <span id="repeatpassdError" class="error"></span>
+                    </div>
+    
+                     
+    
+                    <!-- button div -->
+                    <div class="d-flex justify-content-center">
+                    <!-- <button type="submit" id="register-button">Register</button> -->
+                    <button id="register-button" type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block btn-lg gradient-custom-4 text-body,color:white">Register</button>
+                 </div>
+    
+                    <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.html"
+                        class="fw-bold text-body"><u>Login here</u></a></p>
+    
+                </form>
+    
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script src="../js/footer.js"></script>
+<script src="../js/register.js"></script>
+<script src="../js/darkmode.js"></script>
+
+</body>
+</html>
